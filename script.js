@@ -50,3 +50,14 @@ document.getElementById('menu-toggle').onclick = function() {
   const links = document.getElementById('navbar-links');
   links.classList.toggle('active');
 };
+
+// Close menu on link click
+const navLinks = document.querySelectorAll('.navbar-links a');
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    const menu = document.getElementById('navbar-links');
+    if (menu.classList.contains('active')) {
+      menu.classList.remove('active');
+    }
+  });
+});
