@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Paidi Sirisha | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-title">Paidi Sirisha</div>
+    <div class="navbar-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certs">Certifications</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Hi, I'm Sirisha!</h1>
+    <p class="typewriter"></p>
+    <button class="glow-btn" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">
+      View My Projects
+    </button>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="card">
+    <h2>About Me</h2>
+    <p>
+      I’m passionate about building smart, easy-to-use web applications and automating workflows. 
+      I enjoy solving problems, exploring creative UI designs, and learning new technologies. 
+      Graduated in Information Technology (CGPA: 8.27), currently working with AI workflow automation and prompt engineering.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="card">
+    <h2>Skills</h2>
+    <div class="skillbar">
+      <div>HTML/CSS</div>
+      <div class="skillbar-bar" style="width: 90%"><span>90%</span></div>
+    </div>
+    <div class="skillbar">
+      <div>JavaScript</div>
+      <div class="skillbar-bar" style="width: 80%"><span>80%</span></div>
+    </div>
+    <div class="skillbar">
+      <div>Python</div>
+      <div class="skillbar-bar" style="width: 75%"><span>75%</span></div>
+    </div>
+    <div class="skillbar">
+      <div>Java</div>
+      <div class="skillbar-bar" style="width: 70%"><span>70%</span></div>
+    </div>
+    <div class="skillbar">
+      <div>SQL</div>
+      <div class="skillbar-bar" style="width: 65%"><span>65%</span></div>
+    </div>
+    <div class="skillbar">
+      <div>React JS</div>
+      <div class="skillbar-bar" style="width: 60%"><span>60%</span></div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="card">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>AI Interview Performance Analysis</h3>
+      <p>
+        Developed an AI-based tool to analyze and predict interview performance using audio features and NLP. Helped recruiters assess candidates' emotional and psychological profiles.
+      </p>
+    </div>
+    <div class="project-card">
+      <h3>Symmetric Algorithms Comparison</h3>
+      <p>
+        Compared AES and DES encryption algorithms to assess speed, complexity, and security for data transmission.
+      </p>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certs" class="card">
+    <h2>Certifications & Achievements</h2>
+    <ul>
+      <li>Smart India Hackathon 2022 Qualified</li>
+      <li>Prompt Engineering for Generative AI</li>
+      <li>AWS Cloud Foundations, AWS Academy</li>
+      <li>Robo Race 2019, GMRIT</li>
+      <li>Paper Presentations &amp; 5G Technology Workshop</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="card contact">
+    <h2>Contact Me</h2>
+    <p>
+      Email: <a href="mailto:sirishapaidi02@gmail.com">sirishapaidi02@gmail.com</a><br />
+      LinkedIn: <a href="https://www.linkedin.com/in/paidi-sirisha/" target="_blank">paidi-sirisha</a>
+    </p>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required /><br />
+      <input type="email" placeholder="Your Email" required /><br />
+      <textarea placeholder="Your Message" required></textarea><br />
+      <button type="submit" class="glow-btn">Send</button>
+    </form>
+    <div id="formMsg"></div>
+  </section>
+
+  <!-- Scroll to Top Button -->
+  <button id="scrollTopBtn" aria-label="Back to top">&#8679;</button>
+
+  <footer>
+    &copy; 2025 Paidi Sirisha. All rights reserved.
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
