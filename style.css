@@ -59,7 +59,7 @@ body {
 }
 
 .glow-btn {
-  background: linear-gradient(90deg, #a18cd1 0%, #fbc2eb 100%);
+  background: #4f4fa2;
   color: #fff;
   border: none;
   padding: 0.9rem 2.3rem;
@@ -161,7 +161,7 @@ footer {
   bottom: 2rem;
   right: 2rem;
   z-index: 888;
-  background: linear-gradient(90deg, #a18cd1 0%, #fbc2eb 100%);
+  background: #4f4fa2;
   color: #fff;
   border: none;
   border-radius: 100px;
@@ -173,7 +173,7 @@ footer {
 }
 
 #scrollTopBtn:hover {
-  background: linear-gradient(270deg, #a18cd1 0%, #fbc2eb 100%);
+  background: #6565c8;
 }
 
 /* Responsive Design */
