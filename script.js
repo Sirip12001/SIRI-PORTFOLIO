@@ -44,3 +44,9 @@ document.getElementById('contactForm').onsubmit = function(e) {
     document.getElementById('contactForm').reset();
   }, 2000);
 };
+
+// Mobile menu toggle
+document.getElementById('menu-toggle').onclick = function() {
+  const links = document.getElementById('navbar-links');
+  links.classList.toggle('active');
+};
