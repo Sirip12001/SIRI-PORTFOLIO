@@ -1,0 +1,177 @@
+body {
+  font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
+  background: #f7f8fc;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4f4fa2;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.navbar-links a {
+  margin-left: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navbar-links a:hover {
+  color: #ffe066;
+}
+
+.hero {
+  text-align: center;
+  padding: 2.5rem 1rem;
+  background: linear-gradient(120deg, #f3e7e9 0%, #c9ffbf 100%);
+  color: #333;
+}
+
+.hero h1 {
+  margin-bottom: 0.3rem;
+  font-size: 2.3rem;
+}
+
+.typewriter {
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #4f4fa2;
+  border-right: 2px solid #4f4fa2;
+  min-height: 28px;
+  line-height: 28px;
+}
+
+.glow-btn {
+  background: linear-gradient(90deg, #a18cd1 0%, #fbc2eb 100%);
+  color: #fff;
+  border: none;
+  padding: 0.9rem 2.3rem;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1.08rem;
+  margin-top: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 0 15px #9873dc55;
+  transition: transform 0.15s, box-shadow 0.18s;
+  outline: none;
+}
+
+.glow-btn:hover {
+  transform: scale(1.06);
+  box-shadow: 0 0 28px #4f4fa288;
+}
+
+.card {
+  max-width: 720px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 22px #cdd1f580;
+  transition: box-shadow .22s, transform .2s;
+}
+
+.card:hover {
+  box-shadow: 0 10px 30px #9673dc44;
+  transform: translateY(-2px) scale(1.01);
+}
+
+.project-card {
+  background: #f3f4fa;
+  border-left: 4px solid #4f4fa2;
+  padding: 1rem 1.2rem 0.6rem 1.2rem;
+  margin-bottom: 1.2rem;
+  border-radius: 6px;
+}
+
+.skillbar {
+  margin-bottom: 1.1rem;
+}
+
+.skillbar-bar {
+  background: linear-gradient(90deg, #43c6ac 0%, #191654 100%);
+  height: 14px;
+  border-radius: 8px;
+  margin: 0.3rem 0 0.9rem 0;
+  box-shadow: 0 2px 7px #19165420;
+  position: relative;
+  transition: width 1s;
+}
+
+.skillbar-bar span {
+  position: absolute;
+  right: 12px;
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 500;
+  top: -3px;
+}
+
+.certifications ul {
+  list-style: disc;
+  margin-left: 1.6rem;
+}
+
+.contact form {
+  margin-top: 0.5rem;
+}
+
+.contact input, .contact textarea {
+  width: 96%;
+  padding: 0.69rem;
+  margin-bottom: 1rem;
+  border: 1px solid #d4d4d4;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.contact button {
+  margin-top: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1.1rem 0 2rem 0;
+  color: #aaa;
+  font-size: 1rem;
+}
+
+/* Scroll to Top */
+#scrollTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 888;
+  background: linear-gradient(90deg, #a18cd1 0%, #fbc2eb 100%);
+  color: #fff;
+  border: none;
+  border-radius: 100px;
+  padding: 0.8rem 1.1rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+  box-shadow: 0 2px 18px #9873dc41;
+  transition: background 0.3s;
+}
+
+#scrollTopBtn:hover {
+  background: linear-gradient(270deg, #a18cd1 0%, #fbc2eb 100%);
+}
